@@ -4,8 +4,8 @@ module.exports = {
   tagline: 'Dinosaurs are cool',
   url: 'https://ishitasingh03.github.io',
   baseUrl: '/docusauras-poc/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'ishitasingh03', // Usually your GitHub org/user name.
   projectName: 'docusauras-poc', // Usually your repo name.
