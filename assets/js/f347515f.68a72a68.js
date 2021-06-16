@@ -1,0 +1,1 @@
+(self.webpackChunkexample=self.webpackChunkexample||[]).push([[314],{8834:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/docusauras-poc/blog/tags","slug":"facebook","name":"facebook","count":1,"permalink":"/docusauras-poc/blog/tags/facebook"}')}}]);
