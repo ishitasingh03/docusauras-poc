@@ -2,13 +2,13 @@
 module.exports = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://ishitasingh03.github.io',
+  baseUrl: '/docusauras-poc/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ishitasingh03', // Usually your GitHub org/user name.
+  projectName: 'docusauras-poc', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'AdTech',
