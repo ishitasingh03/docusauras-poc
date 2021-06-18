@@ -38,4 +38,6 @@ jobs:
           git config --global user.email "ishitasingh03@gmail.com"
           git config --global user.name "ishitasingh03"
           cd example
+          npm install
+          npm install node-modules
           npm run deploy
