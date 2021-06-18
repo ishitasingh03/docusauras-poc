@@ -41,3 +41,4 @@ jobs:
           npm install
           npm install node-modules
           npm run deploy
+          git push --force origin gh-pages
