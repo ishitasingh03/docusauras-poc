@@ -16,8 +16,14 @@ jobs:
         with:
           node-version: '12.x'
       - name: Test Build
-        run: 
-          cd example
+        run: |
+          if [ -e yarn.lock ]; then
+          yarn install --frozen-lockfile
+          elif [ -e package-lock.json ]; then
+          npm ci
+          else
+          npm i
+          fi
           npm run build
   gh-release:
     if: github.event_name != 'pull_request'
@@ -33,12 +39,15 @@ jobs:
       - name: Release to GitHub Pages
         env:
           USE_SSH: true
-          GIT_USER: ishitasingh03
+          GIT_USER: git
         run: |
-          git config --global user.email "ishitasingh03@gmail.com"
-          git config --global user.name "ishitasingh03"
-          cd example
-          npm install
-          npm install node-modules
+          git config --global user.email ishitasingh03.vns@gmail.com
+          git config --global user.name ishitasingh03
+          if [ -e yarn.lock ]; then
+          yarn install --frozen-lockfile
+          elif [ -e package-lock.json ]; then
+          npm ci
+          else
+          npm i
+          fi
           npm run deploy
-          git push --force origin gh-pages
