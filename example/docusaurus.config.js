@@ -10,31 +10,34 @@ module.exports = {
   organizationName: 'ishitasingh03', // Usually your GitHub org/user name.
   projectName: 'docusauras-poc', // Usually your repo name.
   themeConfig: {
-    navbar: {
+     navbar: {
       title: 'AdTech',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
+      // links: [
+      //   {
+      //     to: '/index',
+         
+      //     label: 'Get Started',
+      //     position: 'right',
+      //   }
+      //    ],
         items: [
         {
           type: 'doc',
-          docId: 'Advertisements',
+          docId: 'Adtech/Advertisements',
           position: 'left',
           label: 'Documentation ',
         },
         {
           type: 'doc',
-          docId: 'otherInfo',
-          position: 'left',
-          label: 'Other ',
-        },
-        // {to: '/blog', label: 'Blog', position: 'left'},
-        // {
-        //   href: 'https://github.com/facebook/docusaurus',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
+          docId: 'other/otherInfo',
+          position: "right",
+          label: "Other",
+      },
+       
       ],
     },
     footer: {
