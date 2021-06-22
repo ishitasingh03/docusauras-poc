@@ -16,12 +16,18 @@ module.exports = {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
-      items: [
+        items: [
         {
           type: 'doc',
           docId: 'Advertisements',
           position: 'left',
           label: 'Documentation ',
+        },
+        {
+          type: 'doc',
+          docId: 'otherInfo',
+          position: 'left',
+          label: 'Other ',
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         // {
