@@ -45,11 +45,4 @@ jobs:
         run: |
           git config --global user.email ishitasingh03.vns@gmail.com
           git config --global user.name ishitasingh03
-          if [ -e yarn.lock ]; then
-          yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-          npm ci
-          else
-          npm i
-          fi
           npm run deploy
