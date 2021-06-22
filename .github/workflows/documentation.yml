@@ -47,4 +47,4 @@ jobs:
           git config --global user.name ishitasingh03
           cd example
           npm install
-          GIT_USER=ishitasingh03 npm run deploy
+          npm run deploy
