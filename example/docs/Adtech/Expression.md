@@ -1,5 +1,6 @@
-
-
+---
+id: Expression 
+---
 An Expression is a representation of a particular specification of a given entity. eg. City Equals to Jaipur entails an Expression. A Given Expression primarily comprises of a LHS Operator and RHS, in the same order. Other relevant properties of an expression are the type, the data type involved in the expression and a relevant description of what the expression is.
 
 ![alt text for screen readers](/img/expression/expression.png "Text to show on mouseover")

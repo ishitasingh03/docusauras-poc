@@ -1,4 +1,6 @@
-
+---
+id: Rules
+---
 
 
 A Rule is a set of expressions, with operators such as AND, OR between the given expressions . eg. 'City Equals to Jaipur OR City Equals to Panaji' entails a Rule. In the portal, a Rule is created by a set of expression ID's ( visible in a list), in conjunction with operators between the expression ID's. There are two ways to create a Rule. The first way, is by using the drag and drop feature, or by simply typing the rule to be created.

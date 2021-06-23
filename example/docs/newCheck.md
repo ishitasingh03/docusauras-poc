@@ -1,3 +1,6 @@
-# hi adding new file
+---
+id: newCheck 
+---
+hi adding new file
 
-new check
+new check1
